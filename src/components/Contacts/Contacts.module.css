@@ -1,0 +1,15 @@
+.item {
+  list-style: square;
+  display: flex;
+  align-items: center;
+}
+
+.contact_btn {
+  max-width: 100px;
+  padding: 2px 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.list {
+  padding-left: 0;
+}
