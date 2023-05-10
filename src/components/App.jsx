@@ -14,7 +14,6 @@ export const App = () => {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    console.log('Зміна контактів');
     window.localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
 
