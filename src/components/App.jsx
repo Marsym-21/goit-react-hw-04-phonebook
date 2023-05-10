@@ -28,6 +28,7 @@ export const App = () => {
   };
 
   const chahgeFilter = evt => {
+    console.log('Filter');
     setFilter(evt.currentTarget.value);
   };
 

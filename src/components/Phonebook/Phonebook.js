@@ -58,7 +58,6 @@ export default function Phonebook({ contacts, onSubmit }) {
       <label className={css.label}>
         Name
         <input
-          value={name}
           className={css.input}
           type="text"
           placeholder="Enter full name"
@@ -72,7 +71,6 @@ export default function Phonebook({ contacts, onSubmit }) {
       <label className={css.label}>
         Number
         <input
-          value={number}
           className={css.input}
           type="tel"
           placeholder="123-45-67"
