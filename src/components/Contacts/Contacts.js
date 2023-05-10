@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import css from './Contacts.module.css';
-const Contacts = props => {
-  const { contacts, filter, onClick } = props;
-
+const Contacts = ({ contacts, filter, onClick }) => {
   const normalizeFilter = filter.toLowerCase();
   const visibleContacts = contacts.filter(({ dataName }) =>
     dataName.toLowerCase().includes(normalizeFilter)

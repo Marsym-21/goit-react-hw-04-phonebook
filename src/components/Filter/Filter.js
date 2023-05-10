@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './Filter.module.css';
 
-const Filter = props => {
-  const { value, onChange } = props;
+const Filter = ({ value, onChange }) => {
   return (
     <label className={css.label}>
       Find contacs by name

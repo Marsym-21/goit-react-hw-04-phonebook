@@ -3,8 +3,7 @@ import css from './Phonebook.module.css';
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
 
-export default function Phonebook(props) {
-  const { contacts, onSubmit } = props;
+export default function Phonebook({ contacts, onSubmit }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
