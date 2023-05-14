@@ -35,6 +35,8 @@ export default function Phonebook({ contacts, onSubmit }) {
     onSubmit(object);
     name.value = '';
     number.value = '';
+    console.log(name.value);
+    console.log(number.value);
   };
 
   const handleChangeName = evt => {
